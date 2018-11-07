@@ -1,4 +1,5 @@
+
 ## Looping over env variables
 import os
 for k, v in os.environ.items():
-print("%s = %s" %(k,v))
+    print("%s = %s" %(k,v))
